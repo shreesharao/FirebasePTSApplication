@@ -1,0 +1,103 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*custom css*/
+.divVisible{
+  display: block;
+}
+.divHidden{
+  display: none;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to{ opacity: 1; }
+}
+@keyframes godown {
+    from { margin-top: 0px; }
+    to{ margin-top: 50px; }
+}
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+	  display:block;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    animation: fadein 1s ease-in,godown 1s ease-in
+}
+.row{
+		    margin-top:40px;
+		    padding: 0 10px;
+		}
+
+.heading{
+background-color: #428bca;
+border-color: #428bca;
+border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    }
+  .div-table{
+    background-color: white;
+    
+  }
+  .nav-style
+  {
+    background-color: black;
+  }
+  .body-style{
+    background-color: #3A2820;
+  }
+
+  .dashboard-style{
+    background-color:#ffffff;
+    margin-top:50px;
+    border-radius: 10px
+  }
+  .upload-section-style{
+    margin-top:0px;
+    /*background-color:#808088;*/
+    padding: 0px
+  }
